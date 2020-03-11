@@ -14,10 +14,9 @@
   λ git clone https://github.com/jiangdexiao/regex-tool.git
   # usege
   λ npm install regex-util -S
-  # example
-    import regexUtil, { idCard } from 'regex-util'
-
-
+ ```  
+### usage
+  import regexUtil, { idCard } from 'regex-util'
   
   idCard 是直接导出表达式
   方法调用 
@@ -25,12 +24,7 @@
   const regex = regexUtil('isIdCard','2433114555')
   
   
-  头部名称 | 说明
-  -- | --
-  Cache-Control | 控制缓存行为
-  Pragma | http1.0的字段，作用和Cache-Control大体相同
-
-  | 表达式名称 | 描述 | 对应方法名   |
+ | 表达式名称 | 描述 | 对应方法名   |
   | ----------|------|---------   
   | idCard | 身份证号 | isIdCard    |
   | hkCard | 香港身份证 | isHKCard  |
@@ -52,7 +46,5 @@
   | zip | 邮政编码 |isZipCode|
   | ip | IP地址|isIpAddress|
   | date | 日期格式 | isDate|
-
- ```  
 
 
