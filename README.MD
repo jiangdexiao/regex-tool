@@ -19,8 +19,11 @@
   import regexUtil, { idCard } from 'regex-util'
   
   idCard 是直接导出表达式
+  
   方法调用 
+  
   regexUtil(方法名,匹配的值,可选自定义的正则表达式)
+  
   const regex = regexUtil('isIdCard','2433114555')
   
   
