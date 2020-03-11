@@ -23,6 +23,10 @@
   方法调用 
   regexUtil(方法名,匹配的值,可选自定义的正则表达式)
   const regex = regexUtil('isIdCard','2433114555')
+  头部名称 | 说明
+  -- | --
+  Cache-Control | 控制缓存行为
+  Pragma | http1.0的字段，作用和Cache-Control大体相同
 
   | 表达式名称 | 描述 | 对应方法名   |
   | ----------|------|---------   
