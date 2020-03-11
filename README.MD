@@ -5,8 +5,8 @@
  * @LastEditTime: 2020-03-11 18:32:57
  * @Description: In User Settings Edit
  -->
-## `regex-util`
-> regex-util
+## `regex-tool`
+> 正则表达式工具
 
 ### Setup
 ```bash
