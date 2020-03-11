@@ -2,7 +2,7 @@
  * @Author: 289608944@qq.com
  * @Date: 2020-03-11 14:51:36
  * @LastEditors: 289608944@qq.com
- * @LastEditTime: 2020-03-11 18:29:22
+ * @LastEditTime: 2020-03-11 18:32:57
  * @Description: In User Settings Edit
  -->
 ## `regex-util`
@@ -25,7 +25,7 @@
   const regex = regexUtil('isIdCard','2433114555')
 
   | 表达式名称 | 描述 | 对应方法名   |
-  | --------------------------   
+  | ----------|------|---------   
   | idCard | 身份证号 | isIdCard    |
   | hkCard | 香港身份证 | isHKCard  |
   | aoMenCard | 澳门身份证 | isOMenCard |
