@@ -13,7 +13,7 @@
   # clone the repository
   λ git clone https://github.com/jiangdexiao/regex-tool.git
   # usege
-  λ npm install regex-util -S
+  λ npm install regex-tool -S
  ```  
 ### usage
   import regexUtil, { idCard } from 'regex-util'
